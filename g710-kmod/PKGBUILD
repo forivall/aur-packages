@@ -8,8 +8,6 @@ pkgdesc="Linux kernel module to allow use of extra keys on the Logitech g710+ (l
 arch=('i686' 'x86_64')
 url="http://github.com/Wattos/logitech-g710-linux-driver"
 license=('GPL2')
-#optdepends=('dkms') # TODO: make a dkms version
-#https://aur.archlinux.org/packages/dk/dkms-acpi_call-git/PKGBUILD
 makedepends=('git' 'linux-headers')
 provides=('logitech-g710')
 conflicts=('logitech-g710')
