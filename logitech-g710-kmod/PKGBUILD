@@ -11,7 +11,7 @@ license=('GPL2')
 makedepends=('git' 'linux-headers')
 provides=('logitech-g710')
 conflicts=('logitech-g710')
-install='logitech-g710.install'
+install='logitech-g710-kmod.install'
 
 _gitroot=git://github.com/Wattos/logitech-g710-linux-driver.git
 _gitname=logitech-g710-linux-driver
