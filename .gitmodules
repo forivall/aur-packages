@@ -1,0 +1,9 @@
+[submodule "aur4/hid-azio-lv-mech5-dkms-git"]
+	path = aur4/hid-azio-lv-mech5-dkms-git
+	url = ssh://aur@aur4.archlinux.org/hid-azio-lv-mech5-dkms-git.git
+[submodule "aur4/hid-lg-g710-plus-dkms-git"]
+	path = aur4/hid-lg-g710-plus-dkms-git
+	url = ssh://aur@aur4.archlinux.org/hid-lg-g710-plus-dkms-git.git
+[submodule "aur4/teamspeak3-addon-installer"]
+	path = aur4/teamspeak3-addon-installer
+	url = ssh://aur@aur4.archlinux.org/teamspeak3-addon-installer.git
