@@ -7,3 +7,6 @@
 [submodule "aur4/teamspeak3-addon-installer"]
 	path = aur4/teamspeak3-addon-installer
 	url = ssh://aur@aur4.archlinux.org/teamspeak3-addon-installer.git
+[submodule "aur4/otto-bin"]
+	path = aur4/otto-bin
+	url = ssh://aur@aur4.archlinux.org/otto-bin.git
