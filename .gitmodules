@@ -1,12 +1,36 @@
-[submodule "aur4/hid-azio-lv-mech5-dkms-git"]
-	path = aur4/hid-azio-lv-mech5-dkms-git
-	url = ssh://aur@aur4.archlinux.org/hid-azio-lv-mech5-dkms-git.git
-[submodule "aur4/hid-lg-g710-plus-dkms-git"]
-	path = aur4/hid-lg-g710-plus-dkms-git
-	url = ssh://aur@aur4.archlinux.org/hid-lg-g710-plus-dkms-git.git
-[submodule "aur4/teamspeak3-addon-installer"]
-	path = aur4/teamspeak3-addon-installer
-	url = ssh://aur@aur4.archlinux.org/teamspeak3-addon-installer.git
+[submodule "aur4/atom-editor-beta-bin"]
+	path = aur4/atom-editor-beta-bin
+	url = ./.git
+	branch = atom-editor-beta-bin
+[submodule "aur4/caprine-bin"]
+	path = aur4/caprine-bin
+	url = ./.git
+	branch = caprine-bin
+[submodule "aur4/flow-bin"]
+	path = aur4/flow-bin
+	url = ./.git
+	branch = flow-bin
+[submodule "aur4/kaku-bin"]
+	path = aur4/kaku-bin
+	url = ./.git
+	branch = kaku-bin
+[submodule "aur4/shopify-themekit-bin"]
+	path = aur4/shopify-themekit-bin
+	url = ./.git
+	branch = shopify-themekit-bin
 [submodule "aur4/otto-bin"]
 	path = aur4/otto-bin
-	url = ssh://aur@aur4.archlinux.org/otto-bin.git
+	url = ./.git
+	branch = otto-bin
+[submodule "aur4/hid-lg-g710-plus-dkms-git"]
+	path = aur4/hid-lg-g710-plus-dkms-git
+	url = ./.git
+	branch = hid-lg-g710-plus-dkms-git
+[submodule "aur4/hid-azio-lv-mech5-dkms-git"]
+	path = aur4/hid-azio-lv-mech5-dkms-git
+	url = ./.git
+	branch = hid-azio-lv-mech5-dkms-git
+[submodule "aur4/teamspeak3-addon-installer"]
+	path = aur4/teamspeak3-addon-installer
+	url = ./.git
+	branch = teamspeak3-addon-installer
