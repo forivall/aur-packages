@@ -1,36 +1,36 @@
 [submodule "aur4/atom-editor-beta-bin"]
 	path = aur4/atom-editor-beta-bin
-	url = ./.git
+	url = git@github.com:forivall/aur-packages
 	branch = atom-editor-beta-bin
 [submodule "aur4/caprine-bin"]
 	path = aur4/caprine-bin
-	url = ./.git
+	url = git@github.com:forivall/aur-packages
 	branch = caprine-bin
 [submodule "aur4/flow-bin"]
 	path = aur4/flow-bin
-	url = ./.git
+	url = git@github.com:forivall/aur-packages
 	branch = flow-bin
 [submodule "aur4/kaku-bin"]
 	path = aur4/kaku-bin
-	url = ./.git
+	url = git@github.com:forivall/aur-packages
 	branch = kaku-bin
 [submodule "aur4/shopify-themekit-bin"]
 	path = aur4/shopify-themekit-bin
-	url = ./.git
+	url = git@github.com:forivall/aur-packages
 	branch = shopify-themekit-bin
 [submodule "aur4/otto-bin"]
 	path = aur4/otto-bin
-	url = ./.git
+	url = git@github.com:forivall/aur-packages
 	branch = otto-bin
 [submodule "aur4/hid-lg-g710-plus-dkms-git"]
 	path = aur4/hid-lg-g710-plus-dkms-git
-	url = ./.git
+	url = git@github.com:forivall/aur-packages
 	branch = hid-lg-g710-plus-dkms-git
 [submodule "aur4/hid-azio-lv-mech5-dkms-git"]
 	path = aur4/hid-azio-lv-mech5-dkms-git
-	url = ./.git
+	url = git@github.com:forivall/aur-packages
 	branch = hid-azio-lv-mech5-dkms-git
 [submodule "aur4/teamspeak3-addon-installer"]
 	path = aur4/teamspeak3-addon-installer
-	url = ./.git
+	url = git@github.com:forivall/aur-packages
 	branch = teamspeak3-addon-installer
