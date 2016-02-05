@@ -9,11 +9,10 @@ arch=('i686' 'x86_64')
 url="https://hub.github.com"
 license=('MIT')
 conflicts=('hub' 'hub-git')
-_arch=amd64  # Workaround for mkaurball: https://bugs.archlinux.org/task/40711
-[[ $CARCH = i686 ]] && _arch=386
-source=("hub-linux-${_arch}-${pkgver}.tar.gz::https://github.com/github/hub/releases/download/v${pkgver}/hub-linux-${_arch}-${pkgver}.tgz")
-sha512sums=('33725fa43bcdeda71de6fb1bf4322fce24dc3854218635758e2462566cfa487e2b5bcd4fa79a4b145fb3b7bded1664065dd2b20efac11341ca2b24cdd61ef712')
-[[ $CARCH = i686 ]] && sha512sums=('dcba7563b5635f3d914e97fa8c3291983ae5ed70b6cd4232f9894d27d7387e12d4bad67ecb075fed6ede4af352a41c54983862d21640b1ccaff1340578bfcefd')
+source_x86_64=("hub-linux-amd64-${pkgver}.tar.gz::https://github.com/github/hub/releases/download/v${pkgver}/hub-linux-amd64-${pkgver}.tgz")
+source_i686=("hub-linux-386-${pkgver}.tar.gz::https://github.com/github/hub/releases/download/v${pkgver}/hub-linux-386-${pkgver}.tgz")
+md5sums_i686=('b087f0a018fa69f434c92d41e158626d')
+md5sums_x86_64=('7d33b611d2b1633fd4969776b34ae736')
 install='hub-bin.install'
 package() {
   cd $srcdir/hub-linux-${_arch}-${pkgver}
