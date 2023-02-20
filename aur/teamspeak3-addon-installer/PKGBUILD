@@ -13,6 +13,7 @@ sha1sums=('c9d5eac3e63a50e4c0990f146101f0609c7b6a76')
 package() {
   mkdir -p -- "$pkgdir/usr/bin"
   cp "teamspeak3-install-addon" "$pkgdir/usr/bin/teamspeak3-install-addon"
+  chmod +x "$pkgdir/usr/bin/teamspeak3-install-addon"
 }
 
 # vim:set ts=2 sw=2 et:
